@@ -116,7 +116,7 @@ mysql> SELECT * FROM businessbranders_database.todo_list;
 <?php
 $user = "devops_user";
 $password = "S3cur1ty@glory2012";
-$database = businessbranders_database";
+$database = "businessbranders_database";
 $table = "todo_list";
 
 try {
@@ -132,3 +132,4 @@ print "Error!: " . $e->getMessage() . "<br/>";
 die();
 }
 ```
+![Todo_List](./Images/todo_list.png)
